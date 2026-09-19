@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Study Vault</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Study Vault</h1>
+        <p>(mission suck less at coding)</p>
+    </header>
+
+    <main>
+
+        <section class="dashboard">
+            <div class="card">
+                <h2>Subjects</h2>
+                <p id="subjects-count">0</p>
+            </div>
+
+            <div class="card">
+                <h2>Tasks</h2>
+                <p id="tasks-count">0</p>
+            </div>
+
+            <div class="card">
+                <h2>Completed</h2>
+                <p id="completed">0</p>
+            </div>        
+        </section>
+
+        <section class = "tasks">
+            <h2>My Tasks</h2>
+
+            <input
+                type="text"
+                id="task-input" 
+                placeholder="Add a new task">
+
+            <select id="subject-input">
+                <option value="">Choose a subject</option>
+                <option value="Prob and Stats">Prob and Stats</option>
+                <option value="ML">ML</option>
+                <option value="Tinkering w Robotics">Tinkering wRobotics</option>
+                <option value="UAV">UAV</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <button id="add-task">Add</button>
+            <ul id="task-list"></ul>
+        </section>
+
+    </main>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
