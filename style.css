@@ -74,7 +74,7 @@ h2{
 body {
     
     background-image:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../images/cry.jpg");
+    url("images/cry.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
